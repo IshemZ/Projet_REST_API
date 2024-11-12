@@ -1,0 +1,33 @@
+# Ignorer les environnements virtuels Poetry
+.venv/
+.env/
+
+# Fichiers et dossiers de cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Configuration et fichiers de logs
+*.log
+*.pot
+
+# Fichiers de données et d'environnement
+.env
+.env.*
+
+# Dossiers de configuration de l'IDE (par exemple, VSCode, PyCharm)
+.vscode/
+.idea/
+
+# Ignorer les dossiers de build et de distribution
+build/
+dist/
+*.egg-info/
+
+# Ignorer les fichiers Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Autres fichiers Poetry
+poetry.lock
+pyproject.toml

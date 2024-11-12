@@ -1,0 +1,26 @@
+GET http://127.0.0.1:5000/api/hello
+
+###
+
+POST http://127.0.0.1:5000/api/testing
+Content-Type: application/json
+
+{
+    "version" : "abc"
+}
+
+###
+
+GET http://127.0.0.1:5000/api/testing
+
+###
+
+GET https://jsonplaceholder.typicode.com/users
+
+###
+
+GET https://jsonplaceholder.typicode.com/users/1
+
+###
+
+GET https://jsonplaceholder.typicode.com/posts

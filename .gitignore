@@ -31,3 +31,5 @@ dist/
 # Autres fichiers Poetry
 poetry.lock
 pyproject.toml
+
+projet_rest_api/

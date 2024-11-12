@@ -24,3 +24,9 @@ GET https://jsonplaceholder.typicode.com/users/1
 ###
 
 GET https://jsonplaceholder.typicode.com/posts
+
+
+
+###
+
+GET https://api.notion.com/v1/databases/

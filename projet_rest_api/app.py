@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/api/hello', methods=['GET'])
 def hello():
-    return jsonify(message="Hello wtf bitchfffdfes World!")
+    return jsonify(message="Hello wtf hfffdfes World!")
 
 @app.route('/api/testing', methods=['POST'])
 def testing():
